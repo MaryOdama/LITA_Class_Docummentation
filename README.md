@@ -15,7 +15,16 @@ The primary sources of data used here is Data Sale.csv and this is an open sourc
   2. for Analysis
   3. for virtualisation
 - Sql-Structured Query Langauge for Quering of Data
-- Github for porfolio Building.
+- Github for portfolio Building.
+
+Exploratory Data Analysis
+EDA involves the exploring of data to answer some questions about the Data such as;
+- What is the overall sales trend
+- which products are top sellers
+- what are the products on peak sales
+
+DATA ANALYSIS
+This is where we include some basic lines of code or queries or even some of the DAX expressions used during your analysis
 
 
 
