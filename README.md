@@ -2,6 +2,18 @@
 
 ### Project Title:E commerce Sales Analysis
 
+### Outline
+[Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Tools used](#tools-used)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[DATA ANALYSIS](#data-analysis)
+
+
 ### Project Overview
 ---
 
