@@ -48,6 +48,17 @@ Is use to analyze data in business
     - Load: When a data set is loaded and ready for usage.
 
 ### Data analysis
+   1. Data analysis: To injest data into tool for analysis by connecting to data souurce, adding some coloumns or removing coloumns.
+   2. Modelling: This is when data from different source communicata with each other
+   3. Virsualization: Turning data into chart and graphs
+
+### Three major business owners 
+   1. What is working
+   2. What is not working
+   3. What you should focus on.
+
+
+    
 
     
 
