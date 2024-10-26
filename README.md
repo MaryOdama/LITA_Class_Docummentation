@@ -1,5 +1,7 @@
 # LITA_Class_Docummentation
 
+By Odama-Mary-Yegraowo
+
 ### Project Title:Microsoft Excel Data Analysis
 
 ### Outline
@@ -19,9 +21,29 @@
 
 ### Project Overview
 ---
+### Microsoft Excel
+Is a spread sheet application that store data
+
 
 ### Data generation
-This has to do with the collection or capturing of sets of data for easy analysis, how data is propelled,example participant gender, locations etc are set of data. Data generation is stringent
+This has to do with the collection or capturing of sets of data for easy analysis, how data is propelled,example participant gender, locations etc are set of data. Data generation is stringent by virtue of the tools we use to generate our business processes e.g gender, age, building and vehicles. 
+
+### Data structure
+Is use to analyze data in business
+
+## Key tools to run analysis
+  1. Operational system- Is use in executing business processes e.g zoom, sap,oracle etc
+  2. Analytic system- Is use in evaluating business processes e.g Excel, powerBi.
+
+### Data storage--Data is stored in
+  1. Premises- this type of data is used within the organisation e.g Microsoft excel.
+  2. Cloud- Data can be retrieved the way it is stored,this data type is not only use within the organization but publicly.
+### Ways to retrieve data
+    - Structure data:Data in tabular format
+    - Semi-structure data: Data in javascript object notation (Json) format,this data type are not in tabular format, are usually in pairs and cannot be easily analyze e.g Xml
+    - Unstructure data: Data usually in audio and vidoe format.
+
+
 
 
 
