@@ -1,5 +1,26 @@
 # LITA_Class_Docummentation
 
+### Project Title:Microsoft Excel Data Analysis
+
+### Outline
+[Foundation of data]
+
+[Data generation]
+
+[Data structure]
+
+[Data storage]
+
+[Data analysis]
+
+[Statistics]
+
+[Data driven dicision making]
+
+### P
+
+
+
 ### Project Title:E commerce Sales Analysis
 
 ### Outline
