@@ -42,6 +42,14 @@ Is use to analyze data in business
     - Structure data:Data in tabular format
     - Semi-structure data: Data in javascript object notation (Json) format,this data type are not in tabular format, are usually in pairs and cannot be easily analyze e.g Xml
     - Unstructure data: Data usually in audio and vidoe format.
+    - ETL: Is an acronims that transform data from a particular structure to structue ready for analysis
+    - Extract:Connectiong to data set either on cloud or in premises
+    - Transformation: Data set not needed are transform to a desire data
+    - Load: When a data set is loaded and ready for usage.
+
+### Data analysis
+
+    
 
 
 
