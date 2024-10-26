@@ -20,6 +20,9 @@
 ### Project Overview
 ---
 
+### Data generation
+This has to do with the collection or capturing of sets of data for easy analysis, how data is propelled,example participant gender, locations etc are set of data. Data generation is stringent
+
 
 
 
