@@ -66,6 +66,14 @@ https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/Spreedsheet.PNG
 - IF:Performs a logical test. E.G =If(A1>10, "Yes", "NO")
 - VLOOKUP: Searches for a value in a table. E.G.,=VLOOKUP(B2, A1:D10,3,FALSE)
 - CONCATENATE:Joins several text strings into one. E.G., =CONCATENATE(A1, " ", B1)
+- COUNT: Counts the number of cells with numbers.E.G =Count(B2:B10)
+- MAX and MIN:Finds the highest and the lowest values.E.G=MAX(B2:B10)and=MIN(B2:B10)
+- SUMIF: Adds up cells that meet a condition.Example:=SUMIF(A2:A10, ">100)
+- COUNTIF: Counts cells that meet a condition. Examples:=LEFT(A2"A10, "YES")
+- LEFT/RIGHT/MID:Extract part of text. Examples:=LEFT (A2,3),=RIGHT(A2,2), =MID(A2,2,4)
+- MATCH: Searches for a value and returns its position.Example: =MATCH(50, B2:B10,0)
+- INDEX:Returns the value at a given position in a range.Example.=INDEX(B2:B10,4)
+  
 ### Example can be seen below
 https://github.com/MaryOdama/LITA_Class_Docummentation/commit/7cf6fc208615b3058ec6cc0167b28105971ce7b7#diff-0ae90d7837ac78495b34e3b70721d01884d5f03ea120e0072e0db951458dc015
 
