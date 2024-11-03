@@ -72,7 +72,8 @@ https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/Spreedsheet.PNG
 - MAX and MIN:Finds the highest and the lowest values.E.G=MAX(B2:B10)and=MIN(B2:B10)
 - SUMIF: Adds up cells that meet a condition.Example:=SUMIF(A2:A10, ">100)
 - COUNTIF: Counts cells that meet a condition. Examples:=LEFT(A2"A10, "YES")
-- LEFT/RIGHT/MID:Extract part of text. Examples:=LEFT (A2,3),=RIGHT(A2,2), =MID(A2,2,4)
+- LEFT/RIGHT/MID:Extract part of text. Examples:=LEFT (A2,3),=RIGHT(A2,2), =MID(A2,2,4) e.g
+  https://github.com/MaryOdama/LITA_Class_Docummentation/blob/650aa79494052758672b6691da3254e6d62d5efe/Text%20extraction1%20excel.PNG
 - MATCH: Searches for a value and returns its position.Example: =MATCH(50, B2:B10,0)
 - INDEX:Returns the value at a given position in a range.Example.=INDEX(B2:B10,4)
   
