@@ -91,6 +91,28 @@ https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/mi%20pivot.PNG
 
 ### Formattinging: Excel allows you to format cells tomake data easier to read. you can change fonts, colors, borders, and number formaats (like currency or percentage).
 
+### STRUCTURE QUERY LANGUAGE(Sql)
+
+### Outline
+[What is Sql](#what-is-sql)
+
+[Sql Query](#sql-query)
+
+[Sql Operators and Clause](#sql-operators-and-clause) 
+
+[Basic Sql command](#basic-sql-command)
+
+[Sql Keys](#sql-key)
+
+Structure query language (sql): These is an essential language of databases. it stands for structured Query Language and it is used to communicate with and manupulate databases. With SQL, you can
+-  Retrieve Data: Pull specific data points using SELECT statements.
+-  Manipulate Data: Insert new record(INSERT), update existing ones(UPDATA), or remove them (DELETE).
+-  Combine Data: Use joins to merge data from different tables, making your analysis more comprehensive.
+-  Run Functions: Perfom calculations and aggregations like finding sums averages,or counts.
+In a nutshell,SQL is the tool that makes databases useful, enabling you to turn a sea of data into meaningful information
+
+
+
 
 
 
