@@ -124,15 +124,31 @@ Hiredate Datetime,
 Primary key (staffid)
 
    
-   3. SELECT Queries: Fetch data from the database. Example
+   2. SELECT Queries: Fetch data from the database. Example
 ```SQL
 SELECT *FROM EMPLOYEE
 
- 3. INSERT Queries: Add new records to database. Example
+  3. INSERT Queries: Add new records to database. Example
 ```SQL
 INSERT INTO EMPLOYEE (staffid,firstname,secondname,gender,Date_of_birth,hiredate)
 
 https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/SQL1.PNG
+
+  4.DROP TABLE: Deletes a table from the database.Example
+```SQL
+------to drop table-------
+Drop table employee
+
+  5.DELETE Query: Remove record from the database.E.g
+```SQL
+------delete sql command------
+Delete from employee
+Where staffid='ab281'
+
+
+
+
+
 
    
 
