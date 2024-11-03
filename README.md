@@ -115,9 +115,10 @@ SQL Query:These are requests made to a database to retreive or manipulate data. 
    1. SELECT Queries: Fetch data from the database. Example
 ```SQL
 SELECT *FROM EMPLOYEE
-   2. INSERT Queries: Add new records to database. Example
+
+ 2. INSERT Queries: Add new records to database. Example
 ```SQL
-INSERT INTO EMPLOYEE
+INSERT_INTO_EMPLOYEE(staffid,firstname,secondname,gender,Date_of_birth,hiredate)
    
 
 
