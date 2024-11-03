@@ -145,6 +145,10 @@ Drop table employee
 Delete from employee
 Where staffid='ab281'
 
+  6.TRUNCATE: Is like taking a big eraser to yourtable,it removes all rows quickly and efficiently but keeps structure intact,it is different from delete.
+------Truncate sql command-------
+Truncate table empolyee
+
 
 
 
