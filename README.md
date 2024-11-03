@@ -21,9 +21,7 @@ By Odama-Mary-Yegraowo
 
 ### Project Overview
 ---
-### Microsoft Excel
-Is a spread sheet application that store data
-
+Microsoft Excel is a powerful spreadsheet tool used for data analysis, financial modeling, and much more.
 
 ### Data generation
 This has to do with the collection or capturing of sets of data for easy analysis, how data is propelled,example participant gender, locations etc are set of data. Data generation is stringent by virtue of the tools we use to generate our business processes e.g gender, age, building and vehicles. 
@@ -56,6 +54,9 @@ Is use to analyze data in business
    1. What is working
    2. What is not working
    3. What you should focus on.
+
+### Here is a super quick rundown:
+   1. Cells, Rows, and Columns:This are building blocks of any spreedsheet.Cells are individual boxes where you enter data,rows run horizontally, while columns run vertically.eg
 
 
     
