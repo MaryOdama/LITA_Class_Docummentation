@@ -66,8 +66,8 @@ https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/Spreedsheet.PNG
 - IF:Performs a logical test. E.G =If(A1>10, "Yes", "NO")
 - VLOOKUP: Searches for a value in a table. E.G.,=VLOOKUP(B2, A1:D10,3,FALSE)
 - CONCATENATE:Joins several text strings into one. E.G., =CONCATENATE(A1, " ", B1)
-
-
+### Example can be seen below
+https://github.com/MaryOdama/LITA_Class_Docummentation/commit/7cf6fc208615b3058ec6cc0167b28105971ce7b7#diff-0ae90d7837ac78495b34e3b70721d01884d5f03ea120e0072e0db951458dc015
 
 
 ### Project Title:E commerce Sales Analysis
