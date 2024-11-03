@@ -62,7 +62,11 @@ https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/Spreedsheet.PNG
 ### Formulas and Functions:These are used for calculations for instance
 - SUM: Adds up a range of cells. E.g.,
   =Sum(A1:A10)
-- AVERAGE: Calculatete
+- AVERAGE: Calculate the Average of a range. E.g., =AVerage(A1:A10)
+- IF:Performs a logical test. E.G =If(A1>10, "Yes", "NO")
+- VLOOKUP: Searches for a value in a table. E.G.,=VLOOKUP(B2, A1:D10,3,FALSE)
+- CONCATENATE:Joins several text strings into one. E.G., =CONCATENATE(A1, " ", B1)
+
 
 
 
