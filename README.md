@@ -73,6 +73,7 @@ https://github.com/MaryOdama/LITA_Class_Docummentation/commit/7cf6fc208615b3058e
 https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/Pivot%20table.PNG
 
 ### Pivot Tables: These are used for data summarisation, making it easy to analyze large set of datasets by grouping and calculating data in a flexible way.E.g
+https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/mi%20pivot.PNG
 
 
 
