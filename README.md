@@ -119,6 +119,7 @@ SELECT *FROM EMPLOYEE
  2. INSERT Queries: Add new records to database. Example
 ```SQL
 INSERT_INTO_EMPLOYEE(staffid,firstname,secondname,gender,Date_of_birth,hiredate)
+https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/SQL1.PNG
    
 
 
