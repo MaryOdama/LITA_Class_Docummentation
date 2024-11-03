@@ -25,6 +25,8 @@ Microsoft Excel is a powerful spreadsheet tool used for data analysis, financial
 
 ### Data generation
 This has to do with the collection or capturing of sets of data for easy analysis, how data is propelled,example participant gender, locations etc are set of data. Data generation is stringent by virtue of the tools we use to generate our business processes e.g gender, age, building and vehicles. 
+Example of data generation,
+https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/Excel%201.PNG
 
 ### Data structure
 Is use to analyze data in business
