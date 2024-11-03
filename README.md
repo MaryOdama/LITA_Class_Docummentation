@@ -1,6 +1,6 @@
 # LITA_Class_Docummentation
 
-By Odama-Mary-Yegraowo
+By Odama-Mary-Yegrao
 
 ### Project Title:Microsoft Excel Data Analysis
 
