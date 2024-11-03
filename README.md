@@ -59,7 +59,6 @@ Is use to analyze data in business
    1. Cells, Rows, and Columns:This are building blocks of any spreedsheet.Cells are individual boxes where you enter data,rows run horizontally, while columns run vertically.eg
 
 
-    
 
     
 
