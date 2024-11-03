@@ -56,13 +56,13 @@ Is use to analyze data in business
    3. What you should focus on.
 
 ### Here is a super quick rundown:
-   1. Cells, Rows, and Columns:This are building blocks of any spreedsheet.Cells are individual boxes where you enter data,rows run horizontally, while columns run vertically.eg
+### Cells, Rows, and Columns:This are building blocks of any spreedsheet.Cells are individual boxes where you enter data,rows run horizontally, while columns run vertically.eg
 https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/Spreedsheet.PNG
 
-   2. Formulas and Functions:These are used for calculations for instance
-     - SUM: Adds up a range of cells. E.g.,
-      =Sum(A1:A10)
-     - AVERAGE: Calculatete
+### Formulas and Functions:These are used for calculations for instance
+- SUM: Adds up a range of cells. E.g.,
+  =Sum(A1:A10)
+- AVERAGE: Calculatete
 
 
 
