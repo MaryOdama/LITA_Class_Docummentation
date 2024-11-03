@@ -112,14 +112,28 @@ Structure query language (sql): These is an essential language of databases. it 
 -  In a nutshell,SQL is the tool that makes databases useful, enabling you to turn a set of data into meaningful information
 
 SQL Query:These are requests made to a database to retreive or manipulate data. they act as a commands that tell the database exactly what you want it to do.Here are some basic functions:
-   1. SELECT Queries: Fetch data from the database. Example
+   1. CREATE TABLE:Sets up a new table.Example
+```SQL
+Creat Table Employee(
+Staffid Varchar (255) Not Null,
+Firstname Varchar (255) Not Null,
+Secondname Varchar (255) Not Null,
+Gender Varchar (10)Not Null,
+Date_of_birth Date,
+Hiredate Datetime,
+Primary key (staffid)
+
+   
+   3. SELECT Queries: Fetch data from the database. Example
 ```SQL
 SELECT *FROM EMPLOYEE
 
- 2. INSERT Queries: Add new records to database. Example
+ 3. INSERT Queries: Add new records to database. Example
 ```SQL
-INSERT-INTO-EMPLOYEE (staffid,firstname,secondname,gender,Date_of_birth,hiredate)
+INSERT INTO EMPLOYEE (staffid,firstname,secondname,gender,Date_of_birth,hiredate)
+
 https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/SQL1.PNG
+
    
 
 
