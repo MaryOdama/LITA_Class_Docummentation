@@ -70,6 +70,7 @@ https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/Spreedsheet.PNG
 https://github.com/MaryOdama/LITA_Class_Docummentation/commit/7cf6fc208615b3058ec6cc0167b28105971ce7b7#diff-0ae90d7837ac78495b34e3b70721d01884d5f03ea120e0072e0db951458dc015
 
 ### Charts and Graphs:Excel can create various types of charts (like bar,line,pie charts) to represent your data.
+https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/Pivot%20table.PNG
 
 
 
