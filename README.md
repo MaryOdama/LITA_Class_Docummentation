@@ -149,6 +149,44 @@ Where staffid='ab281'
 ------Truncate sql command-------
 Truncate table empolyee
 
+  7. SUM:Adds up values in a numeric column.Example
+----SUM Sql command------------
+```SQL
+SELECT SUM(Salary) AS TOTALSALARY FROM Salary
+
+  8. AVERAGE:Calculate the average value of a numeric column.Exaple
+----AVERAGE---------
+```SQL
+SELECT AVG(Salary) AS AVERAGESALARY FROM Salary
+
+  9. COUNT:Count the number of rows that match a specific condition.Example
+```SQL
+SELECT COUNT(Staffid) AS EmployeeCount FROM EMPLOYEE
+
+  10. UPDATE: Is used to modify existing records in a table
+update employee
+set secondname = 'Endurance'
+where staffid = 'AB405'
+
+  11. ALTER:Is used to change the structure of an existing table in the database.you can add, delete,or modify columns.E.g
+ALTER TABLE EMPLOYEE
+ADD State_of_Origin varchar (50)
+
+  12. MAX: Finds the highest value in a column.E.g
+select max(salary) from Salary
+
+  13. MIN: Finds the lowest value in a column.E.g
+select min(salary) as min_salary from Salary
+
+  14.GROUP BY: Is used to arranged identical data into groups.it is super handy for summarizing data
+```SQL
+select * from employee
+select count(staffid),state_of_origin from employee
+GROUP BY STATE_OF_ORIGIN
+
+
+
+
 
 
 
