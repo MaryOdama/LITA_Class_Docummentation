@@ -178,11 +178,89 @@ select max(salary) from Salary
   13. MIN: Finds the lowest value in a column.E.g
 select min(salary) as min_salary from Salary
 
-  14.GROUP BY: Is used to arranged identical data into groups.it is super handy for summarizing data
+  14. GROUP BY: Is used to arranged identical data into groups.it is super handy for summarizing data
 ```SQL
 select * from employee
 select count(staffid),state_of_origin from employee
 GROUP BY STATE_OF_ORIGIN
+
+   15. HAVING: These is an SQL Clause,is like the filter for groups created by the GROUP BY clause.it is used to set conditions on groups created by GROUP BY, similar to how the WHERE clause sets conditions on individual rows.
+```sql
+select count(staffid) as StaffPerSate, state_of_origin 
+
+from Employee
+
+GROUP BY State_of_Origin
+
+HAVING COUNT(staffid) >=3
+
+
+   16.JOIN: Allows you to combine rows from two or more tables based on a related column between them.E.g
+select employee.staffid, employee.firstname, employee.gender,
+			 employee.hiredate,employee.state_of_origin, Salary.department,
+			 Salary.salary
+from employee
+join Salary
+on salary.Staffid = employee.staffid
+
+
+  17. LEFT JOIN: Returns all records from the left table and the match records from the right table.If there is no match, NULLs are returned for columns from the right table.
+select employee.staffid, employee.firstname, employee.gender,
+			 employee.hiredate,employee.state_of_origin, Salary.department,
+			 Salary.salary
+from employee
+left join Salary
+on salary.Staffid = employee.staffid
+
+  18. RIGHT JOIN:Returns all records from the right table and the matched records from the left table.If there is no match, NULLs are returned for columns from the left table.
+select employee.staffid, employee.firstname, employee.gender,
+			 employee.hiredate,employee.state_of_origin, Salary.department,
+			 Salary.salary
+from employee
+Rigt join Salary
+on salary.Staffid = employee.staffid
+
+  20. FULL JOIN: Combines the results of both LEFT JOIN and RIGHT JOIN. It returns all records from both tables, filling in NULLs when there is no match.E.g
+select employee.staffid, employee.firstname, employee.gender,
+			 employee.hiredate,employee.state_of_origin, Salary.department,
+			 Salary.salary
+from employee
+full join Salary
+on salary.Staffid = employee.staffid
+
+    21. INNER JOIN:Returns records with matching values in both tables.E.g
+select employee.staffid,
+           employee.firstname, 
+		   employee.gender,
+		   employee.hiredate,
+			employee.state_of_origin,
+			Salary.department,
+			 Salary.salary,
+			 Payment.Account_No,
+			 Payment.Bank,
+			 Payment.Payment_Method
+			 from employee
+inner join Salary
+on salary.Staffid = employee.staffid
+inner join Payment
+on Payment.staffid = salary.Staffid
+
+    22.UNION:Removes duplicate.E.g
+select  customerID, Customer_gender, transaction_amount
+from LITA_Store_Lekki
+union 
+select customerID, Customer_gender, transaction_amount
+from LITA_Store_Marina
+
+   23. UNION ALL:Keep all duplicate records.E.g
+select * from LITA_Store_Lekki
+	union all 
+	select * from LITA_Store_Marina
+
+
+
+
+
 
 
 
