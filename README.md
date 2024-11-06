@@ -77,7 +77,7 @@ https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/Spreedsheet.PNG
 - MATCH: Searches for a value and returns its position.Example: =MATCH(50, B2:B10,0)
 - INDEX:Returns the value at a given position in a range.Example.=INDEX(B2:B10,4)
   
-### Example can be seen below
+### Examples can be seen below
 https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/My%20excel%202.PNG
 https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/My%20excel%203.PNG
 https://github.com/MaryOdama/LITA_Class_Docummentation/commit/7cf6fc208615b3058ec6cc0167b28105971ce7b7#diff-0ae90d7837ac78495b34e3b70721d01884d5f03ea120e0072e0db951458dc015
