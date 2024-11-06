@@ -268,18 +268,6 @@ select * from LITA_Store_Lekki
 
 
 
-
-
-   
-
-
-
-
-
-
-
-
-
 ### Project Title:E commerce Sales Analysis
 
 ### Outline
