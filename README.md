@@ -245,7 +245,7 @@ on salary.Staffid = employee.staffid
 inner join Payment
 on Payment.staffid = salary.Staffid
 
-    22.UNION:Removes duplicate.E.g
+  22.UNION:Removes duplicate.E.g
 select  customerID, Customer_gender, transaction_amount
 from LITA_Store_Lekki
 union 
@@ -256,6 +256,52 @@ from LITA_Store_Marina
 select * from LITA_Store_Lekki
 	union all 
 	select * from LITA_Store_Marina
+
+
+### SQL VIEWS
+A Structured Query Language View is essentially a virtual table based on the result set of a query. It doesn't store data itself but rather displays data stored in other tables.Views can simplify complex queries,enhance security by limiting data access, and make your database schema more flexible and maintainable.
+
+select * from [dbo].[vw_LITA_Store_Transaction_tbl2]
+
+create view vw_LITA_Employee_Info 
+as
+select employee.staffid,
+        employee.firstname, 
+	employee.secondname,
+        employee.gender,
+	employee.hiredate,
+	employee.state_of_origin,
+	Salary.department,
+	Salary.salary,
+	Payment.Account_No,
+	Payment.Bank,
+	Payment.Payment_Method
+from employee
+inner join Salary
+on salary.Staffid = employee.staffid
+inner join Payment
+on Payment.staffid = salary.Staffid
+
+select * from [dbo].[vw_LITA_Employee_Info]
+
+
+-------SQL CASE WHEN-------------------------
+SQL CASE WHEN: The CASE statement in SQL is a powerful way to implement conditional logic within your queries.It allows you to create more dynamic and complex queries by including conditions directly in the SQL. 
+SELECT * FROM EMPLOYEE
+
+ALTER TABLE EMPLOYEE
+ADD AGE AS DATEDIFF(YEAR, Date_of_Birth, Hiredate) -
+   CASE
+       WHEN MONTH(Hiredate) < month(Date_of_birth)
+	   OR (MONTH(Hiredate) = month(Date_of_birth)
+	   AND DAY(Hiredate) < DAY(Date_of_birth))
+	THEN 1
+	ELSE 0
+END
+
+-------------
+ALTER TABLE EMPLOYEE
+ADD AGE AS datediff( year, Date_of_Birth, Hiredate)
 
 
 
