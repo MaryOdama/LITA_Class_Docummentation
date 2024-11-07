@@ -354,6 +354,14 @@ WERE CONDITION = TRUE
 |TABLE 1|TABLE 2|TABLE 3|
 
 
+### MICROSOFT POWER BI
+Power Bi is a business analytics tool developed by Microsoft that lets you visualize your data and share insights across your organisation. It is designed to data interactive and virsually appealing.
+
+### Key Features:
+
+
+
+
 
 
 
