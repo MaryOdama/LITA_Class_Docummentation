@@ -380,6 +380,17 @@ Power Bi is a business analytics tool developed by Microsoft that lets you visua
     - Finance: Monitor financial performance,budget analysis and forecasting.
     - Operations: Improve operational effifiency with data on supply chain, inventory and production processes.
     - HR: Analyze employee performance,attrition rates and recruitment metrics.
+
+
+data cleaning in Power Bi involves transforming raw data into a refined and accurate form, making it ready for analysis. Here is a step-by-step guide to help you clean your data using power Bi:
+   1. Get Data
+      - Open power BI Desktop and click on Get Data to connect to your data source (Excel, SQL,etc).
+
+   2. Load Data into Power Query Editor
+      - After selecting your data source, click on Transform Data to open Power Query Editor, Where you will perfom data cleaning.
+      
+
+    
     
 
 
