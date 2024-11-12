@@ -388,6 +388,34 @@ data cleaning in Power Bi involves transforming raw data into a refined and accu
 
    2. Load Data into Power Query Editor
       - After selecting your data source, click on Transform Data to open Power Query Editor, Where you will perfom data cleaning.
+        
+   3. Remove Unnecessary Columns
+      - In Power Query Editor, identify and remove colomns that are not requred for your analysis.
+      - Right-click on the column header and select Remove or Remove Columns.
+     
+   4. Remove Duplicate Rows
+
+      - Ensure you data is unique by removing duplicate rows.
+      - Select the columns you want to consider for duplication, then go to the Home Tab and click on Remove Duplicates.
+     
+   5. Filter Data
+
+      - Apply filters to include only the relevant data.
+      - Click on the dropdown arrow in the column header,uncheck unwanted values, and click OK.
+     
+   6. Handle Missing Values
+
+      - Replace or remove missing values as needed.
+      - Select the column with missing values, then go to the Transform Tab and use options like replace values or Remove Rows.
+     
+   7. Change Data Types
+
+      - Ensure that each columns has the correct data type(e.g,text,number,date).
+      - Select a column, go to the Transform Tab, and click on Data Type to choose the appropriate type.
+      - 
+
+
+   
       
 
     
