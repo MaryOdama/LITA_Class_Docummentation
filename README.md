@@ -412,7 +412,36 @@ data cleaning in Power Bi involves transforming raw data into a refined and accu
 
       - Ensure that each columns has the correct data type(e.g,text,number,date).
       - Select a column, go to the Transform Tab, and click on Data Type to choose the appropriate type.
-      - 
+
+   8. Split Columns
+
+      - Split columns with combined data into seperate columns.
+      - Select the column, go to the Transfom Tab, and click on the Split Column to choose your split criteria.
+     
+   9. Merge Queries
+
+      - Combine data from different tables using joins.
+      - In the Home Tab, click on merge Queries to combine tables based on a common column.
+     
+   10. Add Custom Columns
+
+       - Create new columns to derive additional insights.
+       - Go to the Add Column Tab and click Custom Column to define your own formulas.
+      
+   11. Pivot/Unpivot Columns
+
+       - Reshape your data for better analysis.
+       - Use the Transform Tab to pivot or unpivot columns, which can help in organizing your data.
+      
+   12. Apply Changes
+
+       - Once your data is cleaned and transformed, click Close & Apply in the Power Query Editor to load the data back into Power BI.
+
+
+
+
+
+ 
 
 
    
