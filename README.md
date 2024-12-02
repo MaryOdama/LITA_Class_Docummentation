@@ -461,8 +461,15 @@ data cleaning in Power Bi involves transforming raw data into a refined and accu
    7. Add more clauses if needed by clicking Add Clauses
    8. Click OK to apply the changes.
 
-Creating a Custom Column
+### Creating a Custom Column
 
+Custom columns allow you to create new columns based on fprmulas. 
+
+   1. Open Power BI Desktop and load your dataset.
+   2. Go to Home tab and click on TRANSFORM DATA.
+   3. In the PowerQuery Editor, click on Add Column.
+   4. Select Custom Column from the dropdown menu.
+   5. Enter your formula in the formula bar. E.G (If [SalesAmount] >1000 then "High" else "Low").
 
 
 
