@@ -473,6 +473,14 @@ Custom columns allow you to create new columns based on fprmulas.
 
 
 
+https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/mi%201.PNG
+
+
+
+
+
+
+
 
 
  
