@@ -485,6 +485,9 @@ https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/mi.3.PNG
 https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/mi.4.PNG
 
 
+https://github.com/MaryOdama/LITA_Class_Docummentation/blob/main/Mii.4.PNG
+
+
 
 
 
