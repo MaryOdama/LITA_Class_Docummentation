@@ -442,6 +442,29 @@ data cleaning in Power Bi involves transforming raw data into a refined and accu
        - Once your data is cleaned and transformed, click Close & Apply in the Power Query Editor to load the data back into Power BI.
 
 
+  Creating conditional and custom help you derive new insights from your data.
+  ### Adding a conditional column
+
+  Conditional columns are useful when you want to categorise data based on specific conditions.
+
+   1. Open Power BI Desktop and load your dataset.
+   2. Go to Home tab and click on TRANSFORM DATA.
+   3. In the PowerQuery Editor, click on Add Column.
+   4. Select Conditional Column from the dropdown menu.
+   5. Define the new column name(e.g Sales category).
+   6. Add your conditions:
+      - Choose the columns to test(e.g SalesAmont)
+      - Select the operator (e.g, greater than).
+      - Set the value(e.g, 1000).
+      - Enter the output of this condition (e.g,High).
+
+   7. Add more clauses if needed by clicking Add Clauses
+   8. Click OK to apply the changes.
+
+Creating a Custom Column
+
+
+
 
 
 
